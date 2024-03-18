@@ -1,0 +1,186 @@
+body{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+.logoalura{
+    position: relative;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.inputPadron{
+    position: relative;
+    display: block;
+    padding-top: 0;
+    text-indent: 20px;
+    width: 40%;
+    height: 400px;
+    border-radius: 30px;
+    left: 140px;
+    top: 150px;
+    font-weight: 700;
+    font-size: 32px;
+    white-space: pre-wrap;
+}
+
+.signoExclamacion{
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+
+section p{
+    width: 336px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.consigna{ 
+    position: relative;
+    width: 180px;
+    height: 18px;
+    top: 170px;
+    left: 170px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.inputPadron1{
+    position: relative;
+    text-indent: 20px;
+    width: 30%;
+    height: 400px;
+    border-radius: 30px;
+    left: 1300px;
+    top: -375px;
+    font-weight: 700;
+    font-size: 32px;
+    white-space: pre-wrap;
+}
+
+.contenedor_boton1{
+    position: relative;
+    width: 300px;
+    padding: 20px 0;
+    font-size: 18px;
+    top: 250px;
+    left: 140px;
+    font-weight: bold;
+    color: white;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.contenedor_boton1:hover{
+    background: rgb(49, 10, 88);
+    transform: scale(1.2);
+}
+
+.contenedor_boton2{
+    position: relative;
+    width: 300px;
+    padding: 20px 0;
+    font-size: 18px;
+    top: 250px;
+    left: 200px;
+    font-weight: bold;
+    color: white;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.contenedor_boton2:hover{
+    background: rgb(49, 10, 88);
+    transform: scale(1.2);
+}
+
+.muñeco{
+    position: relative;
+    left: 1400px;
+    top: -340px;
+}
+
+.falta-mensaje{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 336px;
+    height: 122px;
+    left: 1400px;
+    top: -280px;
+}
+
+
+.contenedor_boton3{
+    position: relative;
+    width: 300px;
+    padding: 20px 0;
+    font-size: 18px;
+    top: -220px;
+    left: 1450px;
+    font-weight: bold;
+    color: white;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.contenedor_boton3:hover{
+    background: rgb(49, 10, 88);
+    transform: scale(1.2);
+}
+
+
+footer{
+    position: relative;
+    height: 100px;
+    width: 50%;
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    top: 100px;
+    left: 550px;
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .logoalura, .inputPadron, .inputPadron1, .muñeco, .falta-mensaje{
+        width: auto;
+    }
+    
+    footer{
+        height: 112px;
+        width: 500px;
+    }
+
+    .contenedor_boton1, .contenedor_boton2, .contenedor_boton3{
+        width: 110px;
+        padding: 20px 0;
+    }
+}

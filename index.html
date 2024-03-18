@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="es" >
+
+
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador De Palabras</title>
+            
+    </head>
+
+    <body>
+
+
+        <header>
+            <div class="estructura" style="display: flex;justify-content: between" >
+                <h1 class="logoalura"><img src="imagenes/Logo.jpg" ></h1>
+            </div>
+        </header>
+        
+        <main>
+
+            <section>
+
+                <textarea id="mensaje" class="inputPadron" style="display: inline" placeholder="Ingrese el texto aqui"></textarea>
+
+            </section>
+
+            <section id="advertencia">
+
+                
+
+                <img class="signoExclamacion"  src="imagenes/bi_exclamation-circle-fill.jpg" alt="Imagen de signo de exclamacion">
+
+                <p class="consigna">Solo letras minúsculas y sin acentos.</p>
+
+               
+
+            </section>
+
+            <section>
+                
+                <div class="botonesIzq">
+                    <button onclick="encriptarTexto();" class="contenedor_boton1">Encriptar</button>
+                    <button onclick="desencriptarTexto();" class="contenedor_boton2" id="desencriptar">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section>
+           
+                <div id="sinMensaje">
+                    <img class="muñeco"  src="imagenes/Muñeco.jpg" alt="Imagen de muñeco con una lupa">
+
+                    <div class="falta-mensaje">
+
+                        <h2 class="titulo-principal">Ningún mensaje fue encontrado</h2>
+
+                        <p>Ingresa el texto que desea encriptar o desencriptar</p>
+
+                    </div>
+                </div>
+
+                <div>
+                    <nav>
+                        <form>
+                            <textarea id="mensajeTransformado" class="inputPadron1" hidden></textarea>
+                        </form>
+                    </nav>
+
+                </div>
+
+               
+                <div>
+
+                    <div id="botonCopiar">
+                        <button onclick="copiar();" class="contenedor_boton3" style="display: none;" id="copiar">Copiar</button>
+                    </div>
+                            
+                </div>
+                        
+            </section>
+        
+        </main>
+
+        <script src="app.js"></script>
+                
+    </body>
+            
+    <footer>
+        <p class="piePag">&copy Copyright Lautaro Orellano Lorenzo - 2024</p>
+    </footer>
+
+
+</html>
+
+
+
